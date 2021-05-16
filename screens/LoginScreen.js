@@ -73,7 +73,8 @@ const styles = StyleSheet.create({
     screen: {
         flexDirection:'column',
         alignItems: 'center',
-        flex:1
+        flex:1,
+        backgroundColor:'#fff'
     },
     button:{
         marginBottom:15,

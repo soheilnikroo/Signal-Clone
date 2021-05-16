@@ -33,10 +33,10 @@ const RegisterScreen = ({navigation}) => {
 
 
     return (
-        <KeyboardAvoidingView behavior="padding" style={styles.container}>
+        <KeyboardAvoidingView behavior="height" style={styles.container}>
             <StatusBar style="light" />
 
-            <Text h3 style={{marginBottom:50}}>
+            <Text h3 style={{marginBottom:20}}>
                 Create a Signal Account
             </Text>
             <View style={styles.inputContainer}>
