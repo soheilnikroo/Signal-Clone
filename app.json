@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Signal-Clone-d",
+    "slug": "Signal-Clone-d",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2c6bed"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2c6bed"
+      }
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
+    }
+  }
+}
